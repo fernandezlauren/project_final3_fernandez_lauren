@@ -1,11 +1,16 @@
 @font-face {
-font-family: "Gotham";
-src: url(Gotham.otf);
+font-family: "Interstate-Regular";
+src: url(font/interstate-regular.ttf);
 }
 
 @font-face {
 font-family: "Mercury_Display_Roman";
 src: url(Mercury_Display_Roman.otf);
+}
+
+@font-face {
+    font-family: "Rage Italic";
+    src: url(font/Rage Italic.ttf);
 }
 
 html {
@@ -25,7 +30,7 @@ html {
 /* styles */
 h1 {
     text-align: left;
-    font-family: 'Gotham';
+    font-family: 'Interstate-Regular';
     color: #252525;
     font-size: 3rem;
     padding: 1%;
@@ -33,9 +38,17 @@ h1 {
 
 h2 {
     text-align: left;
-    font-family: 'Gotham';
+    font-family: 'Rage Italic';
     color: #252525;
     font-size: 2rem;
+    padding: 1%;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Interstate-Regular';
+    color: #252525;
+    font-size: 1rem;
     padding: 1%;
 }
 
@@ -49,41 +62,63 @@ p {
 /* end styles */
 
 body {
-    background-color: #FFFFFF;
+background-color: #ffffff;
+;
 }
+
+main {
+	width: 90%;
+	margin: auto;
+	background-color: #ffffe0;
+	max-width: 1200px;
+    padding-bottom: 5%;
+}
+
 
 /* NAV */
 
-nav {
-font-family: 'Mercury_Display_Roman';
-position: relative;
-background: #FFFFFF;
-text-align: center;
+
+/* Style the links inside the navigation bar */
+#navbar {
+  overflow: hidden;
+}
+
+#navbar a {
+    display: block;
+    float: left;
+    color: #000000;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#navbar a:hover {
+  background-color: #FFFFE1;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #F08080;
+  color: white;
 }
 
 a {
 	text-decoration: none;
  	color: #0192B3;
  	display: block;
-    font-family: 'Mercury_Display_Roman';
+    font-family: 'Interstate-Regular';
     padding: 1%;
 }
 
 a:hover {
-    color: #252525;
+    color: #FFFFE1;
 }
 
 ul {
     list-style: none;
     position: relative;
     text-align: left;
-    background-color: #464646;
+    background-color: #d3d3d3;
     font-family: 'Mercury_Display_Roman';
-
-    /*margin: 0;
-    padding: 0;
-    overflow: hidden;
-      */
 }
 
 li {
@@ -128,3 +163,17 @@ img {
     max-width: 500px;
     margin: auto;
     }
+
+
+section {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+footer{
+    text-align: center;
+    overflow: hidden;
+    background-color: #0192B3;
+    padding-top: 2%;
+}
