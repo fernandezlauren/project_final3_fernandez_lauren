@@ -1,0 +1,130 @@
+@font-face {
+font-family: "Gotham";
+src: url(Gotham.otf);
+}
+
+@font-face {
+font-family: "Mercury_Display_Roman";
+src: url(Mercury_Display_Roman.otf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+}
+
+/* styles */
+h1 {
+    text-align: left;
+    font-family: 'Gotham';
+    color: #252525;
+    font-size: 3rem;
+    padding: 1%;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Gotham';
+    color: #252525;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+p {
+    font-family: 'Mercury_Display_Roman';
+    color: #464646;
+    font-size: 1rem;
+    padding: 1%;
+}
+
+/* end styles */
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* NAV */
+
+nav {
+font-family: 'Mercury_Display_Roman';
+position: relative;
+background: #FFFFFF;
+text-align: center;
+}
+
+a {
+	text-decoration: none;
+ 	color: #0192B3;
+ 	display: block;
+    font-family: 'Mercury_Display_Roman';
+    padding: 1%;
+}
+
+a:hover {
+    color: #252525;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+    background-color: #464646;
+    font-family: 'Mercury_Display_Roman';
+
+    /*margin: 0;
+    padding: 0;
+    overflow: hidden;
+      */
+}
+
+li {
+    float: left;
+}
+
+ul::after {
+	clear: both;
+}
+
+ul::before, ul::after {
+	content: " ";
+	display: table;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFFFE1;
+    color: #252525;
+}
+/*end NAV*/
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    }
