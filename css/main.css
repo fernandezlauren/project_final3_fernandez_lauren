@@ -1,11 +1,11 @@
 @font-face {
-font-family: "Interstate-Regular";
-src: url(font/interstate-regular.ttf);
+    font-family: "Interstate-Regular";
+    src: url(font/interstate-regular.ttf);
 }
 
 @font-face {
-font-family: "Mercury_Display_Roman";
-src: url(Mercury_Display_Roman.otf);
+    font-family: "Mercury_Display_Roman";
+    src: url(Mercury_Display_Roman.otf);
 }
 
 @font-face {
@@ -59,28 +59,21 @@ p {
     padding: 1%;
 }
 
-/* end styles */
-
 body {
-background-color: #ffffff;
-;
+    background-color: #ffffff;
 }
 
 main {
-	width: 90%;
-	margin: auto;
-	background-color: #ffffe0;
-	max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    background-color: #ffffe0;
+    max-width: 1200px;
     padding-bottom: 5%;
 }
 
-
-/* NAV */
-
-
-/* Style the links inside the navigation bar */
 #navbar {
-  overflow: hidden;
+    overflow: hidden;
+    clear: both;
 }
 
 #navbar a {
@@ -92,25 +85,25 @@ main {
 }
 
 #navbar a:hover {
-  background-color: #FFFFE1;
-  color: black;
+    background-color: #ffffe1;
+    color: black;
 }
 
 #navbar a.active {
-  background-color: #F08080;
-  color: white;
+    background-color: #f08080;
+    color: white;
 }
 
 a {
-	text-decoration: none;
- 	color: #0192B3;
- 	display: block;
+    text-decoration: none;
+    color: #0192b3;
+    display: block;
     font-family: 'Interstate-Regular';
-    padding: 1%;
+    padding: 2.2%;
 }
 
 a:hover {
-    color: #FFFFE1;
+    color: #ffffe1;
 }
 
 ul {
@@ -125,28 +118,24 @@ li {
     float: left;
 }
 
+ul::before,
 ul::after {
-	clear: both;
-}
-
-ul::before, ul::after {
-	content: " ";
-	display: table;
+    content: " ";
+    display: table;
+    clear: both;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #FFFFE1;
+    background-color: #ffffe1;
     color: #252525;
 }
-/*end NAV*/
 
 img {
     display: block;
@@ -160,20 +149,18 @@ img {
     display: block;
     height: auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
-    }
+}
 
 
 section {
-    padding-bottom: 3%;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-left: 2%;
 }
 
-footer{
+footer {
     text-align: center;
     overflow: hidden;
-    background-color: #0192B3;
-    padding-top: 2%;
+    background-color: #0192b3;
 }
