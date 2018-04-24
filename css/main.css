@@ -29,11 +29,10 @@ html {
 
 /* styles */
 h1 {
-    text-align: left;
+    text-align: center;
     font-family: 'Interstate-Regular';
-    color: #252525;
-    font-size: 3rem;
-    padding: 1%;
+    color: #f09eb2;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -106,6 +105,12 @@ a:hover {
     color: #ffffe1;
 }
 
+#hours {
+    list-style: none;
+    position: relative;
+    text-align: left;
+}
+
 ul {
     list-style: none;
     position: relative;
@@ -143,6 +148,15 @@ img {
     width: 100%;
     max-width: 1000px;
     margin: auto;
+}
+
+#history {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 1.5%;
 }
 
 .logo {
