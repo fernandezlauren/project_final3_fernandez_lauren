@@ -63,10 +63,10 @@ body {
 }
 
 main {
-    width: 90%;
+    width: 95%;
     margin: auto;
     background-color: #ffffe0;
-    max-width: 1200px;
+    max-width: 1300px;
     padding-bottom: 5%;
 }
 
@@ -146,7 +146,7 @@ img {
     display: block;
     height: auto;
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -189,4 +189,19 @@ footer {
     font-family: 'Interstate-Regular';
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 250px;
+    text-indent: 0;
+    border: thin silver solid;
+    padding: 0.5em;
+}
+
+body {
+border: 10px solid #f09eb2;
 }
