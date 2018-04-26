@@ -8,3 +8,7 @@ $('#clock').countdown('2018/10/01', function(event) {
 function myFunction() {
     document.getElementById("demo").style.color = "#0192b3";
 }
+
+$('body').loading({
+  stoppable: true
+});
