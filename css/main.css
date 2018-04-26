@@ -205,3 +205,7 @@ figure {
 body {
 border: 10px solid #f09eb2;
 }
+
+.myClickState {
+  border: 10px solid lime;
+}
